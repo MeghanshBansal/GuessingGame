@@ -3,21 +3,13 @@ import java.util.Scanner;
 
 public class Game {
     public static void clrscr(){
-
         //Clears Screen in java
-
         try {
-
             if (System.getProperty("os.name").contains("Windows"))
-
                 new ProcessBuilder("cmd", "/c", "cls").inheritIO().start().waitFor();
-
             else
-
                 Runtime.getRuntime().exec("clear");
-
         } catch (IOException | InterruptedException ex) {}
-
     }
     public static void main(String[] args){
         System.out.println("------THIS IS NUMBER GUESSING GAME-------");
