@@ -1,6 +1,6 @@
 import java.io.IOException;
 import java.util.Scanner;
-
+//this is the game class
 public class Game {
     public static void clrscr(){
         //Clears Screen in java
